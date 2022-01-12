@@ -80,7 +80,7 @@ export function TaskItem({ task, toggleTaskDone, removeTask, editTask }: TasksIt
           <TouchableOpacity
             onPress={handleCancelEditing}
           >
-            {/* <Icon name="x" size={24} color="#b2b2b2" /> */}
+            <AntDesign name="close" size={24} color="#b2b2b2" />
           </TouchableOpacity>
         ) : (
           <TouchableOpacity
